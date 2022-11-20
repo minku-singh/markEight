@@ -42,7 +42,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h2>EMOJI INTERPRETER</h2>
+      <h2>FOOD EMOJI INTERPRETER</h2>
       <section style={{ marginBottom: "2rem" }}>
         <input
           type="text"
