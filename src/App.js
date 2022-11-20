@@ -42,8 +42,8 @@ export default function App() {
 
   return (
     <div className="App">
-      <h2>Emoji Interpreter</h2>
-      <section>
+      <h2>EMOJI INTERPRETER</h2>
+      <section style={{ marginBottom: "2rem" }}>
         <input
           type="text"
           placeholder="Search Your Emoji..."
