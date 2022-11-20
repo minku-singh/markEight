@@ -17,7 +17,7 @@ export default function App() {
     "🥕": "Carrot",
     "🍟": "French Fries",
     "🌭": "Hot Dog",
-    "🍣": "Sushi"
+    "🍣": "Sushi",
   };
 
   // array
@@ -43,14 +43,16 @@ export default function App() {
   return (
     <div className="App">
       <h2>Emoji Interpreter</h2>
-      <input
-        type="text"
-        placeholder="Search Your Emoji..."
-        onChange={(e) => handleChange(e)}
-        style={{ width: "70vw", padding: "10px" }}
-      />
-      <p style={{ fontSize: "3rem" }}>{emoji}</p>
-      <h2>{emojiMeaning}</h2>
+      <section>
+        <input
+          type="text"
+          placeholder="Search Your Emoji..."
+          onChange={(e) => handleChange(e)}
+          style={{ width: "70vw", padding: "10px" }}
+        />
+        <p style={{ fontSize: "3rem" }}>{emoji}</p>
+        <h2>{emojiMeaning}</h2>
+      </section>
 
       <section>
         {emojisArr.map((emoji) => (
